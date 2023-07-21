@@ -6,8 +6,28 @@
         CONTACT US 
       </span>
       <p class="text-base pl-6  items-center ">ติดต่อบริการ</p>
-      <div class="text-center font-medium">
+      <div class="text-center text-black rounded-lg m-5 font-medium bg-fuchsia-200 h-96 shadow-lg shadow-pink-500/40">
         
+        <div class="text-3xl text-red-50  bg-gradient-to-r from-pink-500 to-violet-400">ติดต่อจองทัวร์</div>
+        <div class="text-base m-2">
+          <p>ชื่อจริง</p>
+          <input type="text" placeholder="FirstName" class="w-3/4 rounded-md border-2 border-red-300 hover:border-red-500">
+        </div>
+        <div class="text-base m-2">
+          <p>นามสกุล</p>
+          <input type="text" placeholder="LastName" class="w-3/4 rounded-md border-2 border-red-300 hover:border-red-500">
+        </div>
+        <div class="text-base m-2">
+          <p>Email</p>
+          <input type="email" placeholder="Email" class="w-3/4 rounded-md border-2 border-red-300 hover:border-red-500">
+        </div>
+        <div class="text-base m-2">
+          <p>จำนวนคนที่จอง</p>
+          <input type="number" placeholder="" class="w-3/4 rounded-md border-2 border-red-300 hover:border-red-500">
+        </div>
+        <div class="text-base m-5">
+          <button class="bg-gradient-to-r from-pink-500 to-red-400 rounded-xl w-20 h-8 shadow-lg  shadow-red-500/40 hover:bg-gradient-to-t hover:from-red-500 hover:to-pink-400">จอง</button>
+        </div>
       </div>
     </div>
     

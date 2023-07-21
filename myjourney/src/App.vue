@@ -5,7 +5,7 @@
       <router-view></router-view>
     </div>
     <div class="footer text-white pl-6 fixed bottom-0 text-zinc-500">
-      <p>Made With ❤️<span><button class="text-rose-600" @click="contactus()"> จองด่วน ของเต็ม</button></span></p> 
+      <p>Made With ❤️<span><button class="text-rose-600" @click="contactus()"> จองด่วน ก่อนเต็ม</button></span></p> 
       
     </div>
   </div>
