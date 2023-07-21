@@ -2,27 +2,66 @@
   <div class="">
     <!-- Title Text -->
     <div class="text-5xl font-extrabold ">
-      <span class="brightness-125 antialiased animate-pulse pl-5 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-clip-text hover:from-violet-500 hover:to-pink-500">
+      <span class="brightness-125 antialiased animate-pulse pl-5  bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 hover:bg-clip-text hover:from-violet-500 hover:to-pink-500">
         V JOURNEY
       </span>
-      <p class="text-base pl-6">บริการพาทัวร์ย้อนเวลาไปหาความสนุกในอดีต</p>
-      <div class="m-5 grid grid-cols-1 gap-2 h-96 text-center font-medium">
-        <div class="col-start-1  bg-fuchsia-200   rounded-bl-2xl rounded-tr-2xl text-pink-500 shadow-lg shadow-pink-500/50 text-3xl"><div class="rounded-tr-2xl bg-gradient-to-r from-pink-500 to-violet-400 text-white">JOMTIEN BEACH</div>  <hr><span class="text-base pl-2">รวมพลคนตกหมึก พิกัดที่คุ้นเคย หาดจอมเทียน หมึกสดๆ บางทริปก็กินหมึก บางทริปก็กินน้ำฝน</span> 
-        <p class="text-xs animate-ping text-red-500 m-2"><router-link to="/trip">ทัวร์เลย</router-link></p></div>
-        <div class="col-start-1  bg-fuchsia-200   rounded-bl-2xl rounded-tr-2xl text-pink-500 shadow-lg shadow-pink-500/50 text-3xl"><div class="rounded-tr-2xl bg-gradient-to-r from-pink-500  to-violet-400 text-white">SARABURI</div>  <hr><span class="text-base pl-2">บ้านทุ่ง อันโดดเดี่ยวกลางภูเขาในเส้าไห้ เส้นทางคดเคียวเซเว่นใกล้สุดห่างไป20โล เหล้ายา ปลาปิ้งครบ</span> 
-        <p class="text-xs animate-ping text-red-500 m-2"><router-link to="/trip">ทัวร์เลย</router-link></p></div>
-        <div class="col-start-1  bg-fuchsia-200  rounded-bl-2xl rounded-tr-2xl text-pink-500 shadow-lg shadow-pink-500/50 text-3xl"><div class="rounded-tr-2xl bg-gradient-to-r from-pink-500  to-violet-400 text-white">KOH CHANG</div>  <hr><span class="text-base pl-2">หนีเที่ยวแท้ๆต้องแบบนี้ แบกโน็ตบุ๊คขึ้นรถ ขับไปทำงานไป ถ่ายรูปไปทำงานไป</span> 
-        <p class="text-xs animate-ping text-red-500 m-2"><router-link to="/trip">ทัวร์เลย</router-link></p></div>
-        <div class="col-start-1  bg-fuchsia-200  rounded-bl-2xl rounded-tr-2xl text-pink-500 shadow-lg shadow-pink-500/50 text-3xl"><div class="rounded-tr-2xl bg-gradient-to-r from-pink-500  to-violet-400 text-white">KANJANABURI</div>  <hr><span class="text-base pl-2">ยกขโยงกันทั้งออฟฟิศ ไปดูช้างที่กาญฯ เจอแต่ช้างขวด เละ!!</span> 
-        <p class="text-xs animate-ping text-red-500 m-2"><router-link to="/trip">ทัวร์เลย</router-link></p></div>
+      <p class="text-base pl-6 items-center">ทัวร์พัทยาฉบับคนท้องถิ่น ฟิน มั่ว รั่วกับชาวประมง</p>
+      <!-- Card content -->
+      <div class=" max-w-xl bg-white border m-5 border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="../assets/fishing.JPG" alt="" />
+          </a>
+          <div class="p-5">
+              <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">กิจกรรมมากมาย</h5>
+              </a>
+              <p class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400">ดำน้ำ ยิงปลา ตกหมึก กินปลาสด วิ่งหนีตำรวจ และอื่นๆอีกเพียบ</p>             
+          </div>
       </div>
+      <!-- Card content -->
+      <div class=" max-w-xl bg-white border m-5 border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="../assets/demo-2.JPG" alt="" />
+          </a>
+          <div class="p-5">
+              <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">สิ่งอำนวยความสะดวกครบ</h5>
+              </a>
+              <p class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400">โรงแรมลับๆดีๆ เก้าอี้แคมป์ปิ้งนั่งริมหาด รถส่วนตัว พัดลม พาวเวอร์แบงค์</p>             
+          </div>
+      </div>
+      <!-- Card content -->
+      <div class=" max-w-xl bg-white border m-5 border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700">
+          <a href="#">
+              <img class="rounded-t-lg" src="../assets/seafood.JPG" alt="" />
+          </a>
+          <div class="p-5">
+              <a href="#">
+                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">อาหารทะเลสดๆ สดกว่านี้ก็ต้องกินข้างเรือ</h5>
+              </a>
+              <p class="mb-3 font-normal text-base text-gray-700 dark:text-gray-400">ล่าเอง กินเอง หัวใจของความอร่อย ล่าเองไม่ได้ ก็ล่าด้วยแบงค์แดงในตลาดประมงพื้นบ้าน</p>             
+          </div>
+      </div>
+
     </div>
     
   </div>
 </template>
 
 <script>
-
+export default {
+  data(){
+    return {
+      
+    }
+  },
+  mounted(){
+    
+  },
+  methods: {
+    
+  },
+}
 </script>
 
 <style scoped>
