@@ -1,4 +1,6 @@
-# myjourney
+# V JOURNEY 
+VUE.JS - TAILWIND CSS
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
