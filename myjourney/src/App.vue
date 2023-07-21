@@ -21,6 +21,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
 .main {
   display: grid;
   grid-template-rows: 4fr 30fr 1fr;
@@ -29,6 +30,6 @@ body {
   background-color: #09090b;
   box-sizing: border-box;
   min-height: 100vh;
-  /* filter: blur(5px); */
+  font-family: 'Mitr', sans-serif;
 }
 </style>
